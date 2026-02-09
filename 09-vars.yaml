@@ -2,6 +2,6 @@
   hosts : local
   connection : local
   tasks :
-  - name : print variables from Args 
+  - name : print variables from args 
     ansible.inbuilt.debug:
       msg : " Hi {{ Name }} , Good Morning !"
