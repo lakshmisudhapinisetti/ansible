@@ -1,10 +1,10 @@
 - name: variable preference
   hosts: local
   connection: local
-  # vars:
-  #    NAME: "Ansible from PLAY"
-  vars_files:
-  - course.yaml
+  vars:
+      NAME: "Ansible from PLAY"
+  # vars_files:
+  # - course.yaml
   vars_prompt:
   - name: NAME
     prompt: Please enter name
